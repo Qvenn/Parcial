@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    alert("digite el area del circulo");
+    alert("digite el area del rectangulo");
+    alert("digite el area del triangulo");
+
+    op= parseFloat(prompt("ingresar su opcion"));
+
+    if (op==1){
+        radio = parseFloat(prompt("ingresar radio"));
+        alert("area del circulo: "+3.14*Math.pow(radio,2));
+    } else if (op==2) {
+        b = parseFloat(prompt("ingresar base"));
+        h = parseFloat(prompt("ingresar altura"));
+        alert("area del rectangulo; "+b*h);
+    } else if (op == 3) {
+        b= parseFloat(prompt("ingresar base del triangulo"));
+        h= parseFloat(prompt("ingresar la altura del triangulo"))
+        alert("area del triangulo"+(b*h)/2);
+    }
+    
+    </script>
+</body>
+</html>
